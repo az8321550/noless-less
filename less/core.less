@@ -1,7 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font:@font-size-base/20px @basefont;
+}
+button,input,select{
+  outline: none;
+}
 .clearfix{
   .clearfix()
 }
 .container{
   .container()
+}
+a{
+  color:@link-color;
+  text-decoration: none;
+  &:hover{
+    color:@link-hover-color;
+    text-decoration: @link-hover-decoration;
+  }
+}
+.mt10{
+  .mt(10px)
+}
+.mt20{
+  .mt(20px)
+}
+.mb10{
+  .mb(10px)
+}
+.mb20{
+  .mb(20px)
+}
+.pt10{
+  .pt(10px)
+}
+.pt20{
+  .pt(20px)
+}
+.pb10{
+  .pb(10px)
+}
+.pb20{
+  .pb(20px)
 }
 @import "mixins/core";
