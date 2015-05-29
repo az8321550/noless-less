@@ -13,6 +13,9 @@
     "lib",
     "css"
   ],
+  "main": [
+    "dist/css/nobody.css"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
